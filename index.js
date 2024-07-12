@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const jsonFilePath = './input.json';
+const filePath = require('./filepath.json');
 
 // Read the JSON file
 fs.readFile(jsonFilePath, 'utf8', (err, data) => {
@@ -15,7 +16,7 @@ fs.readFile(jsonFilePath, 'utf8', (err, data) => {
 
     // Create yearly folders
     folderData.yearlyFolders.forEach(year => {
-      const yearPath = path.join(__dirname, year);
+      const yearPath = path.join(filePath.src, year);
       createFolder(yearPath);
       
       // Create monthly folders for each year

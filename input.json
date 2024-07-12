@@ -1,9 +1,9 @@
 {
   "yearlyFolders": ["2022","2023","2024"],
   "monthlyFolders": {
-    "2022": ["01_January","02_February","03_March"],
-    "2023": ["01_January","02_February","03_March"],
-    "2024": ["01_January","02_February","03_March"]
+    "2022":["01_January","02_February","03_March"],
+    "2023":["01_January","02_February","03_March"],
+    "2024":["01_January","02_February","03_March"]
   },
   "dailyFolders": {
     "2022":{
