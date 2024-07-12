@@ -1,0 +1,11 @@
+{
+  "name": "foldersgenerator",
+  "version": "1.0.0",
+  "description": "Script to generate folders based on user JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Govindarajan Kesavan",
+  "license": "MIT"
+}
